@@ -29,7 +29,7 @@ $profileImage = PrettyProfile::profileImage(0);
 Install:
 
 ```sh
-composer require esc-company view-transformer
+composer require esc-company/view-transformer
 ```
 
 Test:
