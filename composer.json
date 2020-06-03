@@ -1,12 +1,12 @@
 {
-    "name": "cable8mm/phpunit-start-kit",
-    "description": "Phpunit Start Kit is the simple code for starting TDD",
+    "name": "esc-company/view-transformer",
+    "description": "View Transformer make profile image or name if client's information is empty.",
     "keywords": [
-        "phpunit",
-        "php",
+        "esc-company",
+        "php7",
         "development",
         "tdd",
-        "startkit"
+        "profile"
     ],
     "type": "project",
     "require": {
