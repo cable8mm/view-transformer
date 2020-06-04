@@ -26,6 +26,22 @@ $profileImage = PrettyProfile::profileImage(0);
 // $profileImage = 'https://m.holapet.com/images/avatars/2/1.png?crop=20px,20px,160px,160px';
 ```
 
+```php
+// .blade.php
+
+{{ \EscCompany\ViewTransformer\PrettyProfile::profileImage($user->id, $user->profile_image_url) }}
+
+{{-- OR --}}
+
+@php
+use EscCompany\ViewTransformer\PrettyProfile
+@endphp
+
+{{ PrettyProfile::profileImage($user->id, $user->profile_image_url) }}
+
+
+```
+
 Install:
 
 ```sh
@@ -35,13 +51,5 @@ composer require esc-company/view-transformer
 Test:
 
 ```sh
-➜  view-transformer git:(master) ✗ composer test
-PHPUnit 8.5.5 by Sebastian Bergmann and contributors.
-
-.                                                                   1 / 1 (100%)
-
-Time: 89 ms, Memory: 10.00MB
-
-OK (1 test, 1 assertion)
-➜  view-transformer git:(master) ✗
+composer test
 ```
