@@ -27,19 +27,9 @@ $profileImage = PrettyProfile::profileImage(0);
 ```
 
 ```php
-// .blade.php
+// .blade.php for laravel
 
-{{ \EscCompany\ViewTransformer\PrettyProfile::profileImage($user->id, $user->profile_image_url) }}
-
-{{-- OR --}}
-
-@php
-use EscCompany\ViewTransformer\PrettyProfile
-@endphp
-
-{{ PrettyProfile::profileImage($user->id, $user->profile_image_url) }}
-
-
+{{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
 ```
 
 Install:
