@@ -42,5 +42,13 @@
         "test": [
             "./vendor/bin/phpunit tests"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "PrettyProfileHelper": "EscCompany\\ViewTransformer\\PrettyProfile",
+                "WordBinderHelper": "EscCompany\\ViewTransformer\\WordBinder"
+            }
+        }
     }
 }
