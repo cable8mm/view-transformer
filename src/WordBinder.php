@@ -5,7 +5,7 @@ namespace EscCompany\ViewTransformer;
 class WordBinder
 {
     /**
-     *  워드프레스의 본문을 퍼블리싱.(예. 태그 삭제, 동영상 태그를 임베딩 태그로 변경 등...)
+     *  워드프레스의 본문을 퍼블리싱(예. 태그 삭제, 동영상 태그를 임베딩 태그로 변경 등...).
      *
      * @param string $content
      * @return string
@@ -14,7 +14,12 @@ class WordBinder
     {
         // 워드프레스에서 복사한 코드에 caption 블록이 있으면 이미지만 꺼내쓴다
         $content = preg_replace("/\[caption.+(<[^>]+>).+caption]/", '$1', $content);
-        $content = preg_replace("/\[embed\].+\/([^\?]+)\??.*\[\/embed\]/", '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', $content);
+        $content = preg_replace(
+            "/\[embed\].+\/([^\?]+)\??.*\[\/embed\]/",
+            '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/$1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            $content
+        );
+
         return str_replace('<p>&nbsp;</p>', '', $content);
     }
 
