@@ -8,6 +8,7 @@ class PrettyProfile
      * 이미지 서버 path.
      */
     const AVATAR_URL_PREFIX = 'https://m.holapet.com/images/avatars/';
+
     const DEFAULT_BACKGROUND_IMAGE = 'https://m.holapet.com/images/pro_back.png';
 
     /**
@@ -68,8 +69,7 @@ class PrettyProfile
     /**
      * 닉네임이 없을 떄 추천 닉네임을 구함.
      *
-     * @param int $user_id
-     * @param string $value
+     * @param  string  $value
      * @return string
      */
     public static function nickname(int $user_id, $value = null)
@@ -87,8 +87,7 @@ class PrettyProfile
     /**
      * 기본 프로필이미지를 구함.
      *
-     * @param int $user_id
-     * @param string $profile_img
+     * @param  string  $profile_img
      * @return string
      */
     public static function profileImage(int $user_id, $profile_img = null)
@@ -107,7 +106,7 @@ class PrettyProfile
     /**
      * 기본 배경이미지를 구함.
      *
-     * @param string $background_image
+     * @param  string  $background_image
      * @return string
      */
     public static function backgroundImage($background_image = null)

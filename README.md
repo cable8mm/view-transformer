@@ -2,7 +2,6 @@
 
 ![Build](https://github.com/esc-company/view-transformer/workflows/Build/badge.svg)
 [![Latest Stable Version](https://poser.pugx.org/esc-company/view-transformer/v)](//packagist.org/packages/esc-company/view-transformer)
-[![StyleCI](https://github.styleci.io/repos/269027453/shield?branch=master)](https://github.styleci.io/repos/269027453)
 
 ## About
 
