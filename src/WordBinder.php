@@ -7,7 +7,7 @@ class WordBinder
     /**
      *  워드프레스의 본문을 퍼블리싱(예. 태그 삭제, 동영상 태그를 임베딩 태그로 변경 등...).
      *
-     * @param string $content
+     * @param  string  $content
      * @return string
      */
     public static function view($content)
