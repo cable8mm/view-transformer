@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.1.0 - 2024-03-07
+
+### What's Changed
+
+* Available sizes for dogs and cats by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/10
+* Sections for better understanding by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/11
+* Describing a more convenient method for Laravel Blade by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/12
+
+**Full Changelog**: https://github.com/companimal/view-transformer/compare/v2.0.1...v2.1.0
+
 ## v2.0.1 - 2024-03-07
 
 ### What's Changed
@@ -55,6 +65,7 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+
 
 
 ```
