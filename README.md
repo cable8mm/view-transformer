@@ -18,6 +18,8 @@ This API allows you to freely use names and images of dogs and cats without any 
 
 ## Preview
 
+### Dog artworks
+
 ![Dog 1](https://cabinet.companimal.net/avatars/dog/medium/1.png)
 ![Dog 2](https://cabinet.companimal.net/avatars/dog/medium/2.png)
 ![Dog 3](https://cabinet.companimal.net/avatars/dog/medium/3.png)
