@@ -153,6 +153,8 @@ composer require esc-company/view-transformer
 
 ## Usage
 
+It has been designed to retrieve an image by user ID, even if the ID is a large number.
+
 ```php
 print PrettyProfile::getInstance()->nickname(1)
 //=> 평범한 네벨룽;
