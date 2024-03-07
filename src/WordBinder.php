@@ -5,14 +5,11 @@ namespace EscCompany\ViewTransformer;
 class WordBinder
 {
     /**
-     *  워드프레스의 본문을 퍼블리싱(예. 태그 삭제, 동영상 태그를 임베딩 태그로 변경 등...).
-     *
-     * @param  string  $content
-     * @return string
+     *  The main content of WordPress is publishing (e.g., deleting tags, changing video tags to embedding tags, etc.)
      */
-    public static function view($content)
+    public static function view(string $content): string
     {
-        // 워드프레스에서 복사한 코드에 caption 블록이 있으면 이미지만 꺼내쓴다
+        // If there is a caption block in the code copied from WordPress, only the image is used.
         $content = preg_replace("/\[caption.+(<[^>]+>).+caption]/", '$1', $content);
         $content = preg_replace(
             "/\[embed\].+\/([^\?]+)\??.*\[\/embed\]/",
@@ -23,7 +20,10 @@ class WordBinder
         return str_replace('<p>&nbsp;</p>', '', $content);
     }
 
-    public static function addBanner($content, $bannerHtml, $nthPTag = 0)
+    /**
+     * Insert banner code in nth phrases.
+     */
+    public static function addBanner(string $content, string $bannerHtml, int $nthPTag = 0): string
     {
         if ($nthPTag == 0) {
             return $bannerHtml.$content;
