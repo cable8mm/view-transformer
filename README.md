@@ -6,9 +6,12 @@
 [![Packagist Downloads](https://img.shields.io/packagist/dt/esc-company/view-transformer)](https://packagist.org/packages/esc-company/view-transformer/stats)
 [![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/esc-company/view-transformer/php)](https://packagist.org/packages/esc-company/view-transformer)
 [![Packagist Stars](https://img.shields.io/packagist/stars/esc-company/view-transformer)](https://github.com/companimal/view-transformer/stargazers)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Packagist License](https://img.shields.io/packagist/l/esc-company/view-transformer)](https://github.com/companimal/view-transformer/blob/main/LICENSE.md)
 
 This API allows you to freely use names and images of dogs and cats without any limits. These images are hosted on [GitHub Pages](https://github.com/companimal/cabinet) with the domain cabinet.companimal.net. Additionally, WordPress contents can be converted to HTML, including YouTube embed tags.
+
+This repository is licensed under the MIT license, and the artworks are licensed under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1). For more information, visit: https://github.com/companimal/cabinet.
 
 ## Features
 
