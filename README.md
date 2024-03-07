@@ -175,6 +175,8 @@ print PrettyProfile::getInstance()->dogs();
 print PrettyProfile::getInstance()->dogs('medium');
 ```
 
+### Various cases
+
 It has been designed to retrieve an image by user ID, even if the ID is a large number.
 
 ```php
@@ -214,7 +216,7 @@ array_map(
 //=> ![Cat 1](https://cabinet.companimal.net/avatars/cat/1.png)...
 ```
 
-### Formatting
+## Formatting
 
 ```bash
 composer lint
@@ -224,7 +226,7 @@ composer inspect
 # Inspect all files to ensure compliance with PSR-12.
 ```
 
-### Test
+## Test
 
 ```sh
 composer test
