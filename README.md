@@ -18,132 +18,130 @@ This API allows you to freely use names and images of dogs and cats without any 
 
 ## Preview
 
-### Dog icons
+![Dog 1](https://cabinet.companimal.net/avatars/dog/medium/1.png)
+![Dog 2](https://cabinet.companimal.net/avatars/dog/medium/2.png)
+![Dog 3](https://cabinet.companimal.net/avatars/dog/medium/3.png)
+![Dog 4](https://cabinet.companimal.net/avatars/dog/medium/4.png)
+![Dog 5](https://cabinet.companimal.net/avatars/dog/medium/5.png)
+![Dog 6](https://cabinet.companimal.net/avatars/dog/medium/6.png)
+![Dog 7](https://cabinet.companimal.net/avatars/dog/medium/7.png)
+![Dog 8](https://cabinet.companimal.net/avatars/dog/medium/8.png)
+![Dog 9](https://cabinet.companimal.net/avatars/dog/medium/9.png)
+![Dog 10](https://cabinet.companimal.net/avatars/dog/medium/10.png)
+![Dog 11](https://cabinet.companimal.net/avatars/dog/medium/11.png)
+![Dog 12](https://cabinet.companimal.net/avatars/dog/medium/12.png)
+![Dog 13](https://cabinet.companimal.net/avatars/dog/medium/13.png)
+![Dog 14](https://cabinet.companimal.net/avatars/dog/medium/14.png)
+![Dog 15](https://cabinet.companimal.net/avatars/dog/medium/15.png)
+![Dog 16](https://cabinet.companimal.net/avatars/dog/medium/16.png)
+![Dog 17](https://cabinet.companimal.net/avatars/dog/medium/17.png)
+![Dog 18](https://cabinet.companimal.net/avatars/dog/medium/18.png)
+![Dog 19](https://cabinet.companimal.net/avatars/dog/medium/19.png)
+![Dog 20](https://cabinet.companimal.net/avatars/dog/medium/20.png)
+![Dog 21](https://cabinet.companimal.net/avatars/dog/medium/21.png)
+![Dog 22](https://cabinet.companimal.net/avatars/dog/medium/22.png)
+![Dog 23](https://cabinet.companimal.net/avatars/dog/medium/23.png)
+![Dog 24](https://cabinet.companimal.net/avatars/dog/medium/24.png)
+![Dog 25](https://cabinet.companimal.net/avatars/dog/medium/25.png)
+![Dog 26](https://cabinet.companimal.net/avatars/dog/medium/26.png)
+![Dog 27](https://cabinet.companimal.net/avatars/dog/medium/27.png)
+![Dog 28](https://cabinet.companimal.net/avatars/dog/medium/28.png)
+![Dog 29](https://cabinet.companimal.net/avatars/dog/medium/29.png)
+![Dog 30](https://cabinet.companimal.net/avatars/dog/medium/30.png)
+![Dog 31](https://cabinet.companimal.net/avatars/dog/medium/31.png)
+![Dog 32](https://cabinet.companimal.net/avatars/dog/medium/32.png)
+![Dog 33](https://cabinet.companimal.net/avatars/dog/medium/33.png)
+![Dog 34](https://cabinet.companimal.net/avatars/dog/medium/34.png)
+![Dog 35](https://cabinet.companimal.net/avatars/dog/medium/35.png)
+![Dog 36](https://cabinet.companimal.net/avatars/dog/medium/36.png)
+![Dog 37](https://cabinet.companimal.net/avatars/dog/medium/37.png)
+![Dog 38](https://cabinet.companimal.net/avatars/dog/medium/38.png)
+![Dog 39](https://cabinet.companimal.net/avatars/dog/medium/39.png)
+![Dog 40](https://cabinet.companimal.net/avatars/dog/medium/40.png)
+![Dog 41](https://cabinet.companimal.net/avatars/dog/medium/41.png)
+![Dog 42](https://cabinet.companimal.net/avatars/dog/medium/42.png)
+![Dog 43](https://cabinet.companimal.net/avatars/dog/medium/43.png)
+![Dog 44](https://cabinet.companimal.net/avatars/dog/medium/44.png)
+![Dog 45](https://cabinet.companimal.net/avatars/dog/medium/45.png)
+![Dog 46](https://cabinet.companimal.net/avatars/dog/medium/46.png)
+![Dog 47](https://cabinet.companimal.net/avatars/dog/medium/47.png)
+![Dog 48](https://cabinet.companimal.net/avatars/dog/medium/48.png)
+![Dog 49](https://cabinet.companimal.net/avatars/dog/medium/49.png)
+![Dog 50](https://cabinet.companimal.net/avatars/dog/medium/50.png)
+![Dog 51](https://cabinet.companimal.net/avatars/dog/medium/51.png)
+![Dog 52](https://cabinet.companimal.net/avatars/dog/medium/52.png)
+![Dog 53](https://cabinet.companimal.net/avatars/dog/medium/53.png)
+![Dog 54](https://cabinet.companimal.net/avatars/dog/medium/54.png)
+![Dog 55](https://cabinet.companimal.net/avatars/dog/medium/55.png)
+![Dog 56](https://cabinet.companimal.net/avatars/dog/medium/56.png)
+![Dog 57](https://cabinet.companimal.net/avatars/dog/medium/57.png)
+![Dog 58](https://cabinet.companimal.net/avatars/dog/medium/58.png)
+![Dog 59](https://cabinet.companimal.net/avatars/dog/medium/59.png)
+![Dog 60](https://cabinet.companimal.net/avatars/dog/medium/60.png)
+![Dog 61](https://cabinet.companimal.net/avatars/dog/medium/61.png)
+![Dog 62](https://cabinet.companimal.net/avatars/dog/medium/62.png)
+![Dog 63](https://cabinet.companimal.net/avatars/dog/medium/63.png)
+![Dog 64](https://cabinet.companimal.net/avatars/dog/medium/64.png)
+![Dog 65](https://cabinet.companimal.net/avatars/dog/medium/65.png)
+![Dog 66](https://cabinet.companimal.net/avatars/dog/medium/66.png)
+![Dog 67](https://cabinet.companimal.net/avatars/dog/medium/67.png)
+![Dog 68](https://cabinet.companimal.net/avatars/dog/medium/68.png)
+![Dog 69](https://cabinet.companimal.net/avatars/dog/medium/69.png)
+![Dog 70](https://cabinet.companimal.net/avatars/dog/medium/70.png)
+![Dog 71](https://cabinet.companimal.net/avatars/dog/medium/71.png)
+![Dog 72](https://cabinet.companimal.net/avatars/dog/medium/72.png)
+![Dog 73](https://cabinet.companimal.net/avatars/dog/medium/73.png)
+![Dog 74](https://cabinet.companimal.net/avatars/dog/medium/74.png)
+![Dog 75](https://cabinet.companimal.net/avatars/dog/medium/75.png)
+![Dog 76](https://cabinet.companimal.net/avatars/dog/medium/76.png)
+![Dog 77](https://cabinet.companimal.net/avatars/dog/medium/77.png)
+![Dog 78](https://cabinet.companimal.net/avatars/dog/medium/78.png)
+![Dog 79](https://cabinet.companimal.net/avatars/dog/medium/79.png)
+![Dog 80](https://cabinet.companimal.net/avatars/dog/medium/80.png)
 
-![dog 1](https://cabinet.companimal.net/avatars/dog/1.png)
-![dog 2](https://cabinet.companimal.net/avatars/dog/2.png)
-![dog 3](https://cabinet.companimal.net/avatars/dog/3.png)
-![dog 4](https://cabinet.companimal.net/avatars/dog/4.png)
-![dog 5](https://cabinet.companimal.net/avatars/dog/5.png)
-![dog 6](https://cabinet.companimal.net/avatars/dog/6.png)
-![dog 7](https://cabinet.companimal.net/avatars/dog/7.png)
-![dog 8](https://cabinet.companimal.net/avatars/dog/8.png)
-![dog 9](https://cabinet.companimal.net/avatars/dog/9.png)
-![dog 10](https://cabinet.companimal.net/avatars/dog/10.png)
-![dog 11](https://cabinet.companimal.net/avatars/dog/11.png)
-![dog 12](https://cabinet.companimal.net/avatars/dog/12.png)
-![dog 13](https://cabinet.companimal.net/avatars/dog/13.png)
-![dog 14](https://cabinet.companimal.net/avatars/dog/14.png)
-![dog 15](https://cabinet.companimal.net/avatars/dog/15.png)
-![dog 16](https://cabinet.companimal.net/avatars/dog/16.png)
-![dog 17](https://cabinet.companimal.net/avatars/dog/17.png)
-![dog 18](https://cabinet.companimal.net/avatars/dog/18.png)
-![dog 19](https://cabinet.companimal.net/avatars/dog/19.png)
-![dog 20](https://cabinet.companimal.net/avatars/dog/20.png)
-![dog 21](https://cabinet.companimal.net/avatars/dog/21.png)
-![dog 22](https://cabinet.companimal.net/avatars/dog/22.png)
-![dog 23](https://cabinet.companimal.net/avatars/dog/23.png)
-![dog 24](https://cabinet.companimal.net/avatars/dog/24.png)
-![dog 25](https://cabinet.companimal.net/avatars/dog/25.png)
-![dog 26](https://cabinet.companimal.net/avatars/dog/26.png)
-![dog 27](https://cabinet.companimal.net/avatars/dog/27.png)
-![dog 28](https://cabinet.companimal.net/avatars/dog/28.png)
-![dog 29](https://cabinet.companimal.net/avatars/dog/29.png)
-![dog 30](https://cabinet.companimal.net/avatars/dog/30.png)
-![dog 31](https://cabinet.companimal.net/avatars/dog/31.png)
-![dog 32](https://cabinet.companimal.net/avatars/dog/32.png)
-![dog 33](https://cabinet.companimal.net/avatars/dog/33.png)
-![dog 34](https://cabinet.companimal.net/avatars/dog/34.png)
-![dog 35](https://cabinet.companimal.net/avatars/dog/35.png)
-![dog 36](https://cabinet.companimal.net/avatars/dog/36.png)
-![dog 37](https://cabinet.companimal.net/avatars/dog/37.png)
-![dog 38](https://cabinet.companimal.net/avatars/dog/38.png)
-![dog 39](https://cabinet.companimal.net/avatars/dog/39.png)
-![dog 40](https://cabinet.companimal.net/avatars/dog/40.png)
-![dog 41](https://cabinet.companimal.net/avatars/dog/41.png)
-![dog 42](https://cabinet.companimal.net/avatars/dog/42.png)
-![dog 43](https://cabinet.companimal.net/avatars/dog/43.png)
-![dog 44](https://cabinet.companimal.net/avatars/dog/44.png)
-![dog 45](https://cabinet.companimal.net/avatars/dog/45.png)
-![dog 46](https://cabinet.companimal.net/avatars/dog/46.png)
-![dog 47](https://cabinet.companimal.net/avatars/dog/47.png)
-![dog 48](https://cabinet.companimal.net/avatars/dog/48.png)
-![dog 49](https://cabinet.companimal.net/avatars/dog/49.png)
-![dog 50](https://cabinet.companimal.net/avatars/dog/50.png)
-![dog 51](https://cabinet.companimal.net/avatars/dog/51.png)
-![dog 52](https://cabinet.companimal.net/avatars/dog/52.png)
-![dog 53](https://cabinet.companimal.net/avatars/dog/53.png)
-![dog 54](https://cabinet.companimal.net/avatars/dog/54.png)
-![dog 55](https://cabinet.companimal.net/avatars/dog/55.png)
-![dog 56](https://cabinet.companimal.net/avatars/dog/56.png)
-![dog 57](https://cabinet.companimal.net/avatars/dog/57.png)
-![dog 58](https://cabinet.companimal.net/avatars/dog/58.png)
-![dog 59](https://cabinet.companimal.net/avatars/dog/59.png)
-![dog 60](https://cabinet.companimal.net/avatars/dog/60.png)
-![dog 61](https://cabinet.companimal.net/avatars/dog/61.png)
-![dog 62](https://cabinet.companimal.net/avatars/dog/62.png)
-![dog 63](https://cabinet.companimal.net/avatars/dog/63.png)
-![dog 64](https://cabinet.companimal.net/avatars/dog/64.png)
-![dog 65](https://cabinet.companimal.net/avatars/dog/65.png)
-![dog 66](https://cabinet.companimal.net/avatars/dog/66.png)
-![dog 67](https://cabinet.companimal.net/avatars/dog/67.png)
-![dog 68](https://cabinet.companimal.net/avatars/dog/68.png)
-![dog 69](https://cabinet.companimal.net/avatars/dog/69.png)
-![dog 70](https://cabinet.companimal.net/avatars/dog/70.png)
-![dog 71](https://cabinet.companimal.net/avatars/dog/71.png)
-![dog 72](https://cabinet.companimal.net/avatars/dog/72.png)
-![dog 73](https://cabinet.companimal.net/avatars/dog/73.png)
-![dog 74](https://cabinet.companimal.net/avatars/dog/74.png)
-![dog 75](https://cabinet.companimal.net/avatars/dog/75.png)
-![dog 76](https://cabinet.companimal.net/avatars/dog/76.png)
-![dog 77](https://cabinet.companimal.net/avatars/dog/77.png)
-![dog 78](https://cabinet.companimal.net/avatars/dog/78.png)
-![dog 79](https://cabinet.companimal.net/avatars/dog/79.png)
-![dog 80](https://cabinet.companimal.net/avatars/dog/80.png)
+### Cat artworks
 
-### Cat icons
-
-![cat 1](https://cabinet.companimal.net/avatars/cat/1.png)
-![cat 2](https://cabinet.companimal.net/avatars/cat/2.png)
-![cat 3](https://cabinet.companimal.net/avatars/cat/3.png)
-![cat 4](https://cabinet.companimal.net/avatars/cat/4.png)
-![cat 5](https://cabinet.companimal.net/avatars/cat/5.png)
-![cat 6](https://cabinet.companimal.net/avatars/cat/6.png)
-![cat 7](https://cabinet.companimal.net/avatars/cat/7.png)
-![cat 8](https://cabinet.companimal.net/avatars/cat/8.png)
-![cat 9](https://cabinet.companimal.net/avatars/cat/9.png)
-![cat 10](https://cabinet.companimal.net/avatars/cat/10.png)
-![cat 11](https://cabinet.companimal.net/avatars/cat/11.png)
-![cat 12](https://cabinet.companimal.net/avatars/cat/12.png)
-![cat 13](https://cabinet.companimal.net/avatars/cat/13.png)
-![cat 14](https://cabinet.companimal.net/avatars/cat/14.png)
-![cat 15](https://cabinet.companimal.net/avatars/cat/15.png)
-![cat 16](https://cabinet.companimal.net/avatars/cat/16.png)
-![cat 17](https://cabinet.companimal.net/avatars/cat/17.png)
-![cat 18](https://cabinet.companimal.net/avatars/cat/18.png)
-![cat 19](https://cabinet.companimal.net/avatars/cat/19.png)
-![cat 20](https://cabinet.companimal.net/avatars/cat/20.png)
-![cat 21](https://cabinet.companimal.net/avatars/cat/21.png)
-![cat 22](https://cabinet.companimal.net/avatars/cat/22.png)
-![cat 23](https://cabinet.companimal.net/avatars/cat/23.png)
-![cat 24](https://cabinet.companimal.net/avatars/cat/24.png)
-![cat 25](https://cabinet.companimal.net/avatars/cat/25.png)
-![cat 26](https://cabinet.companimal.net/avatars/cat/26.png)
-![cat 27](https://cabinet.companimal.net/avatars/cat/27.png)
-![cat 28](https://cabinet.companimal.net/avatars/cat/28.png)
-![cat 29](https://cabinet.companimal.net/avatars/cat/29.png)
-![cat 30](https://cabinet.companimal.net/avatars/cat/30.png)
-![cat 31](https://cabinet.companimal.net/avatars/cat/31.png)
-![cat 32](https://cabinet.companimal.net/avatars/cat/32.png)
-![cat 33](https://cabinet.companimal.net/avatars/cat/33.png)
-![cat 34](https://cabinet.companimal.net/avatars/cat/34.png)
-![cat 35](https://cabinet.companimal.net/avatars/cat/35.png)
-![cat 36](https://cabinet.companimal.net/avatars/cat/36.png)
-![cat 37](https://cabinet.companimal.net/avatars/cat/37.png)
-![cat 38](https://cabinet.companimal.net/avatars/cat/38.png)
-![cat 39](https://cabinet.companimal.net/avatars/cat/39.png)
-![cat 40](https://cabinet.companimal.net/avatars/cat/40.png)
-![cat 41](https://cabinet.companimal.net/avatars/cat/41.png)
+![Cat 1](https://cabinet.companimal.net/avatars/cat/medium/1.png)
+![Cat 2](https://cabinet.companimal.net/avatars/cat/medium/2.png)
+![Cat 3](https://cabinet.companimal.net/avatars/cat/medium/3.png)
+![Cat 4](https://cabinet.companimal.net/avatars/cat/medium/4.png)
+![Cat 5](https://cabinet.companimal.net/avatars/cat/medium/5.png)
+![Cat 6](https://cabinet.companimal.net/avatars/cat/medium/6.png)
+![Cat 7](https://cabinet.companimal.net/avatars/cat/medium/7.png)
+![Cat 8](https://cabinet.companimal.net/avatars/cat/medium/8.png)
+![Cat 9](https://cabinet.companimal.net/avatars/cat/medium/9.png)
+![Cat 10](https://cabinet.companimal.net/avatars/cat/medium/10.png)
+![Cat 11](https://cabinet.companimal.net/avatars/cat/medium/11.png)
+![Cat 12](https://cabinet.companimal.net/avatars/cat/medium/12.png)
+![Cat 13](https://cabinet.companimal.net/avatars/cat/medium/13.png)
+![Cat 14](https://cabinet.companimal.net/avatars/cat/medium/14.png)
+![Cat 15](https://cabinet.companimal.net/avatars/cat/medium/15.png)
+![Cat 16](https://cabinet.companimal.net/avatars/cat/medium/16.png)
+![Cat 17](https://cabinet.companimal.net/avatars/cat/medium/17.png)
+![Cat 18](https://cabinet.companimal.net/avatars/cat/medium/18.png)
+![Cat 19](https://cabinet.companimal.net/avatars/cat/medium/19.png)
+![Cat 20](https://cabinet.companimal.net/avatars/cat/medium/20.png)
+![Cat 21](https://cabinet.companimal.net/avatars/cat/medium/21.png)
+![Cat 22](https://cabinet.companimal.net/avatars/cat/medium/22.png)
+![Cat 23](https://cabinet.companimal.net/avatars/cat/medium/23.png)
+![Cat 24](https://cabinet.companimal.net/avatars/cat/medium/24.png)
+![Cat 25](https://cabinet.companimal.net/avatars/cat/medium/25.png)
+![Cat 26](https://cabinet.companimal.net/avatars/cat/medium/26.png)
+![Cat 27](https://cabinet.companimal.net/avatars/cat/medium/27.png)
+![Cat 28](https://cabinet.companimal.net/avatars/cat/medium/28.png)
+![Cat 29](https://cabinet.companimal.net/avatars/cat/medium/29.png)
+![Cat 30](https://cabinet.companimal.net/avatars/cat/medium/30.png)
+![Cat 31](https://cabinet.companimal.net/avatars/cat/medium/31.png)
+![Cat 32](https://cabinet.companimal.net/avatars/cat/medium/32.png)
+![Cat 33](https://cabinet.companimal.net/avatars/cat/medium/33.png)
+![Cat 34](https://cabinet.companimal.net/avatars/cat/medium/34.png)
+![Cat 35](https://cabinet.companimal.net/avatars/cat/medium/35.png)
+![Cat 36](https://cabinet.companimal.net/avatars/cat/medium/36.png)
+![Cat 37](https://cabinet.companimal.net/avatars/cat/medium/37.png)
+![Cat 38](https://cabinet.companimal.net/avatars/cat/medium/38.png)
+![Cat 39](https://cabinet.companimal.net/avatars/cat/medium/39.png)
+![Cat 40](https://cabinet.companimal.net/avatars/cat/medium/40.png)
+![Cat 41](https://cabinet.companimal.net/avatars/cat/medium/41.png)
 
 ## Installation
 
@@ -152,6 +150,30 @@ composer require esc-company/view-transformer
 ```
 
 ## Usage
+
+### APIs
+
+The number 393939 would be better utilized as a user ID.
+
+```php
+PrettyProfile::getInstance()->nickname(393939)
+// get a nickname.
+
+print PrettyProfile::getInstance()->cat(393939);
+print PrettyProfile::getInstance()->cat(393939, 'large');
+// The second argument can be 'large', 'medium', or 'small'. Null indicates the original size.
+
+print PrettyProfile::getInstance()->dog(393939);
+print PrettyProfile::getInstance()->dog(393939, 'large');
+
+print PrettyProfile::getInstance()->cats();
+// All cat images
+print PrettyProfile::getInstance()->cats('medium');
+// All cat images in medium size
+
+print PrettyProfile::getInstance()->dogs();
+print PrettyProfile::getInstance()->dogs('medium');
+```
 
 It has been designed to retrieve an image by user ID, even if the ID is a large number.
 
@@ -173,7 +195,7 @@ print PrettyProfile::getInstance()->cat(1);
 Preview can be generated using the following code:
 
 ```php
-$dogs = PrettyProfile::getInstance()->dogs();
+$dogs = PrettyProfile::getInstance()->dogs('medium');
 
 array_map(
     fn($item, $key) => print '![Dog '.$key.']('.$item.')'.PHP_EOL,
@@ -182,7 +204,7 @@ array_map(
 );
 //=> ![Dog 1](https://cabinet.companimal.net/avatars/dog/1.png)...
 
-$cats = PrettyProfile::getInstance()->cats();
+$cats = PrettyProfile::getInstance()->cats('medium');
 
 array_map(
     fn($item, $key) => print '![Cat '.$key.']('.$item.')'.PHP_EOL,
