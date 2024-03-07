@@ -1,11 +1,20 @@
 # View Transformer
 
-![Build](https://github.com/esc-company/view-transformer/workflows/Build/badge.svg)
-[![Latest Stable Version](https://poser.pugx.org/esc-company/view-transformer/v)](//packagist.org/packages/esc-company/view-transformer)
-
-## About
+[![code-style](https://github.com/companimal/view-transformer/actions/workflows/code-style.yml/badge.svg)](https://github.com/companimal/view-transformer/actions/workflows/code-style.yml)
+[![run-tests](https://github.com/companimal/view-transformer/actions/workflows/run-tests.yml/badge.svg)](https://github.com/companimal/view-transformer/actions/workflows/run-tests.yml)
+[![Packagist Version](https://img.shields.io/packagist/v/esc-company/view-transformer)](https://packagist.org/packages/esc-company/view-transformer)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/esc-company/view-transformer)](https://packagist.org/packages/esc-company/view-transformer/stats)
+[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/esc-company/view-transformer/php)](https://packagist.org/packages/esc-company/view-transformer)
+[![Packagist Stars](https://img.shields.io/packagist/stars/esc-company/view-transformer)](https://github.com/companimal/view-transformer/stargazers)
+[![Packagist License](https://img.shields.io/packagist/l/esc-company/view-transformer)](https://github.com/companimal/view-transformer/blob/main/LICENSE.md)
 
 View Transformer make profile image or name if client's information is empty.
+
+## Installation
+
+```sh
+composer require esc-company-view-transformer
+```
 
 ## Usage
 
@@ -31,14 +40,22 @@ $profileImage = PrettyProfile::profileImage(0);
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
 ```
 
-Install:
+### Formatting
 
-```sh
-composer require esc-company/view-transformer
+```bash
+composer lint
+# Modify all files to comply with the PSR-12.
+
+composer inspect
+# Inspect all files to ensure compliance with PSR-12.
 ```
 
-Test:
+### Test
 
 ```sh
 composer test
 ```
+
+## License
+
+The View Transformer project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
