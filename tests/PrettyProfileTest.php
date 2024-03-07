@@ -53,4 +53,15 @@ class PrettyProfileTest extends TestCase
 
         $this->assertEquals(80, count($cats));
     }
+
+    public function test_it_gets_cat_and_dog_for_laravel(): void
+    {
+        $dog = PrettyProfile::profileImage(4123, animal: 'dog');
+
+        $this->assertEquals('https://cabinet.companimal.net/avatars/dog/43.png', $dog);
+
+        $cat = PrettyProfile::profileImage(1, animal: 'cat');
+
+        $this->assertEquals('https://cabinet.companimal.net/avatars/cat/1.png', $cat);
+    }
 }
