@@ -1,5 +1,14 @@
 # Release Notes
 
+## v2.0.1 - 2024-03-07
+
+### What's Changed
+
+* Show preview code in the README by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/8
+* Add the CC BY-NC-ND 4.0 license in the README by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/9
+
+**Full Changelog**: https://github.com/companimal/view-transformer/compare/v2.0.0...v2.0.1
+
 ## v2.0.0 - 2024-03-07
 
 ### What's Changed
@@ -46,6 +55,7 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+
 
 ```
 ## v1.1.0 - 2020-06-04
