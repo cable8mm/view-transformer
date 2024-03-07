@@ -23,7 +23,7 @@ trait Singleton
     /**
      * Singletons should not be restorable from strings.
      */
-    public function __wakeup(): never
+    public function __wakeup(): void
     {
         throw new \Exception('Cannot unserialize a singleton.');
     }
