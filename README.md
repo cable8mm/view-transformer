@@ -8,36 +8,35 @@
 [![Packagist Stars](https://img.shields.io/packagist/stars/esc-company/view-transformer)](https://github.com/companimal/view-transformer/stargazers)
 [![Packagist License](https://img.shields.io/packagist/l/esc-company/view-transformer)](https://github.com/companimal/view-transformer/blob/main/LICENSE.md)
 
-View Transformer make profile image or name if client's information is empty.
+This API allows you to freely use names and images of dogs and cats without any limits. These images are hosted on [GitHub Pages](https://github.com/companimal/cabinet) with the domain cabinet.companimal.net. Additionally, WordPress contents can be converted to HTML, including YouTube embed tags.
+
+## Features
+
+- [x] 4,080 names for a dog or a cat
+- [x] 81 images for a dog without any limits
+- [x] 40 images for a cat without any limits
 
 ## Installation
 
 ```sh
-composer require esc-company-view-transformer
+composer require esc-company/view-transformer
 ```
 
 ## Usage
 
 ```php
-<?php
-
-$profileNickname = PrettyProfile::nickname(0);
-
-// $profileNickname = '평범한 네벨룽';
+print PrettyProfile::getInstance()->nickname(1)
+//=> 평범한 네벨룽;
 ```
 
 ```php
-<?php
-
-$profileImage = PrettyProfile::profileImage(0);
-
-// $profileImage = 'https://m.holapet.com/images/avatars/2/1.png?crop=20px,20px,160px,160px';
+print PrettyProfile::getInstance()->cat(1);
+//=> https://cabinet.companimal.net/avatars/cat/1.png;
 ```
 
-```php
-// .blade.php for laravel
-
-{{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+```blade
+{{ PrettyProfileHelper::profileImage(4123, animal:'dog') }}
+{{-- ==> https://cabinet.companimal.net/avatars/dog/43.png --}}
 ```
 
 ### Formatting

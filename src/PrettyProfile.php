@@ -84,4 +84,19 @@ class PrettyProfile
             range(1, self::DOG_AVATAR_COUNT)
         );
     }
+
+    public static function profileImage(int $id, ?string $image = null, $animal = 'dog'): string
+    {
+        if (! in_array($animal, ['dog', 'cat'])) {
+            throw new InvalidArgumentException('The value must be dog or cat. '.$animal.' can not valid.');
+        }
+
+        if (! empty($image)) {
+            return $image;
+        }
+
+        return $animal === 'dog' ?
+            self::getInstance()->dog($id) :
+            self::getInstance()->cat($id);
+    }
 }
