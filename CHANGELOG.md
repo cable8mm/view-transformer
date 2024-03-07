@@ -1,5 +1,17 @@
 # Release Notes
 
+## v2.0.0 - 2024-03-07
+
+### What's Changed
+
+* Reset the package entirely using Composer by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/3
+* Refactoring and simplifying the API by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/4
+* Add the Laravel Blade method by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/5
+* Preview dog and cat icons in the README by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/6
+* Describe the usage in detail by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/7
+
+**Full Changelog**: https://github.com/companimal/view-transformer/compare/v1.3.2...v2.0.0
+
 ## v1.3.2 - 2023-07-20
 
 ### What's Changed
@@ -34,8 +46,8 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
-```
 
+```
 ## v1.1.0 - 2020-06-04
 
 ### Added WordBinder
