@@ -170,6 +170,28 @@ print PrettyProfile::getInstance()->cat(1);
 {{-- ==> https://cabinet.companimal.net/avatars/dog/43.png --}}
 ```
 
+Preview can be generated using the following code:
+
+```php
+$dogs = PrettyProfile::getInstance()->dogs();
+
+array_map(
+    fn($item, $key) => print '![Dog '.$key.']('.$item.')'.PHP_EOL,
+    $dogs,
+    array_keys($dogs)
+);
+//=> ![Dog 1](https://cabinet.companimal.net/avatars/dog/1.png)...
+
+$cats = PrettyProfile::getInstance()->cats();
+
+array_map(
+    fn($item, $key) => print '![Cat '.$key.']('.$item.')'.PHP_EOL,
+    $cats,
+    array_keys($cats)
+);
+//=> ![Cat 1](https://cabinet.companimal.net/avatars/cat/1.png)...
+```
+
 ### Formatting
 
 ```bash
