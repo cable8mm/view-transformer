@@ -189,6 +189,8 @@ print PrettyProfile::getInstance()->cat(1);
 //=> https://cabinet.companimal.net/avatars/cat/1.png;
 ```
 
+You can use it as follows in Laravel Blade:
+
 ```blade
 {{ PrettyProfileHelper::profileImage(4123, animal:'dog') }}
 {{-- ==> https://cabinet.companimal.net/avatars/dog/43.png --}}
