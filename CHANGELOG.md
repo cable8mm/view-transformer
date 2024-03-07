@@ -1,5 +1,14 @@
 # Release Notes
 
+## v2.1.1 - 2024-03-07
+
+### What's Changed
+
+* Add a section title for dogs by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/13
+* Add more information to the README by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/14
+
+**Full Changelog**: https://github.com/companimal/view-transformer/compare/v2.1.0...v2.1.1
+
 ## v2.1.0 - 2024-03-07
 
 ### What's Changed
@@ -65,6 +74,7 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+
 
 
 
