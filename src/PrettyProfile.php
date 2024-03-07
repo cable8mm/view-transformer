@@ -27,6 +27,15 @@ class PrettyProfile
 
     private array $nicknames;
 
+    /**
+     * The value can be 'large', 'medium', 'small'. Null value means a original size.
+     */
+    private ?string $size;
+
+    private static array $sizes = ['large', 'medium', 'small'];
+
+    private static array $animals = ['dog', 'cat'];
+
     private function __construct()
     {
         $this->nicknamePrefixs = require __DIR__.'/Data/NicknamePrefix.php';
@@ -47,47 +56,59 @@ class PrettyProfile
         return $this->nicknamePrefixs[$prefix].' '.$this->nicknames[$nickname];
     }
 
-    public function cat(int $id): string
+    private function image(string $animal, int $id, ?string $size = null): string
     {
         if ($id < 1) {
             throw new InvalidArgumentException('The value must be over 0, so a value of '.$id.' is not valid.');
         }
 
-        $cat = ($id - 1) % self::CAT_AVATAR_COUNT + 1;
+        if (! is_null($size) && ! in_array($size, self::$sizes)) {
+            throw new InvalidArgumentException('The value must be "large" or "medium" or "small", so a value of "'.$size.'" is not valid.');
+        }
 
-        return self::CAT_AVATAR_URL_PREFIX.$cat.'.png';
+        $key = match ($animal) {
+            'dog' => ($id - 1) % self::DOG_AVATAR_COUNT + 1,
+            'cat' => ($id - 1) % self::CAT_AVATAR_COUNT + 1,
+            default => throw new InvalidArgumentException('The value must dog or cat, so a value of '.$animal.' is not valid.')
+        };
+
+        $path = is_null($size) ? '' : $size.'/';
+
+        return match ($animal) {
+            'dog' => self::DOG_AVATAR_URL_PREFIX.$path.$key.'.png',
+            'cat' => self::CAT_AVATAR_URL_PREFIX.$path.$key.'.png',
+        };
     }
 
-    public function cats(): array
+    public function cat(int $id, ?string $size = null): string
+    {
+        return $this->image('cat', $id, $size);
+    }
+
+    public function cats(?string $size = null): array
     {
         return array_map(
-            fn ($item) => self::CAT_AVATAR_URL_PREFIX.$item.'.png',
+            fn ($item) => $this->cat($item, $size),
             range(1, self::CAT_AVATAR_COUNT)
         );
     }
 
-    public function dog(int $id): string
+    public function dog(int $id, ?string $size = null): string
     {
-        if ($id < 1) {
-            throw new InvalidArgumentException('The value must be over 0, so a value of '.$id.' is not valid.');
-        }
-
-        $dog = ($id - 1) % self::DOG_AVATAR_COUNT + 1;
-
-        return self::DOG_AVATAR_URL_PREFIX.$dog.'.png';
+        return $this->image('dog', $id, $size);
     }
 
-    public function dogs(): array
+    public function dogs(?string $size = null): array
     {
         return array_map(
-            fn ($item) => self::DOG_AVATAR_URL_PREFIX.$item.'.png',
+            fn ($item) => $this->dog($item, $size),
             range(1, self::DOG_AVATAR_COUNT)
         );
     }
 
     public static function profileImage(int $id, ?string $image = null, $animal = 'dog'): string
     {
-        if (! in_array($animal, ['dog', 'cat'])) {
+        if (! in_array($animal, self::$animals)) {
             throw new InvalidArgumentException('The value must be dog or cat. '.$animal.' can not valid.');
         }
 
