@@ -1,5 +1,14 @@
 # Release Notes
 
+## v2.1.2 - 2024-03-08
+
+### What's Changed
+
+* Update license owner to Companimal by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/15
+* Configure doctum and provide the class comments by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/16
+
+**Full Changelog**: https://github.com/companimal/view-transformer/compare/v2.1.1...v2.1.2
+
 ## v2.1.1 - 2024-03-07
 
 ### What's Changed
@@ -74,6 +83,7 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+
 
 
 
