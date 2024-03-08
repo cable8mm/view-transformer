@@ -243,5 +243,4 @@ composer test
 
 The View Transformer project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-[Artworks](https://cabinet.companimal.net/) © 2020 by [Samgu Lee](https://github.com/cable8mm) is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)
-<img src="https://chooser-beta.creativecommons.org/img/cc-logo.f0ab4ebe.svg" width="16" height="16"> <img src="https://chooser-beta.creativecommons.org/img/cc-by.21b728bb.svg" width="16" height="16">
+[Artworks](https://github.com/companimal/cabinet) © 2020 by [Companimal](https://www.companimal.net) is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/
