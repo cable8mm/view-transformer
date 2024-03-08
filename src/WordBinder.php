@@ -2,10 +2,19 @@
 
 namespace EscCompany\ViewTransformer;
 
+/**
+ * This class provides functions for string conversion.
+ */
 class WordBinder
 {
     /**
-     *  The main content of WordPress is publishing (e.g., deleting tags, changing video tags to embedding tags, etc.)
+     * The main content of WordPress is publishing (e.g., deleting tags, changing video tags to embedding tags, etc.)
+     *
+     * @param  string  $content  WordPress content.
+     * @return string Wordpress widgets to HTML embed.
+     *
+     * @example WordBinder::view('<p>...[caption ... /]...</p>');
+     * //=> <p><iframe width... /></p>
      */
     public static function view(string $content): string
     {
@@ -21,7 +30,15 @@ class WordBinder
     }
 
     /**
-     * Insert banner code in nth phrases.
+     * Create HTML with banner code in nth phrases.
+     *
+     * @param  string  $content  HTML content.
+     * @param  string  $bannerHtml  Banner HTML code.
+     * @param  int  $nthPTag  nth phrases to insert into Banner HTML.
+     * @return string HTML content with Banner HTML.
+     *
+     * @example WordBinder::addBanner('<p>...[caption ... /]...</p>', '<a href="...">...</a>', 2);
+     * //=> Insert Banner HTML into second phrases.
      */
     public static function addBanner(string $content, string $bannerHtml, int $nthPTag = 0): string
     {
