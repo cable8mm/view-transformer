@@ -13,6 +13,8 @@ This API allows you to freely use names and images of dogs and cats without any 
 
 This repository is licensed under the MIT license, and the artworks are licensed under the [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1). For more information, visit: https://github.com/companimal/cabinet.
 
+We have provided the API Documentation on the web. For more information, please visit https://www.companimal.net/view-transformer/ ❤️
+
 ## Features
 
 - [x] 4,080 names for a dog or a cat without any limits
