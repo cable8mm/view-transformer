@@ -1,5 +1,13 @@
 # Release Notes
 
+## v2.2.0 - 2024-03-12
+
+### What's Changed
+
+* Add a background method in pretty profile class by [@cable8mm](https://github.com/cable8mm) in https://github.com/companimal/view-transformer/pull/17
+
+**Full Changelog**: https://github.com/companimal/view-transformer/compare/v2.1.2...v2.2.0
+
 ## v2.1.2 - 2024-03-08
 
 ### What's Changed
@@ -83,6 +91,7 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+
 
 
 
