@@ -64,4 +64,18 @@ class PrettyProfileTest extends TestCase
 
         $this->assertEquals('https://cabinet.companimal.net/avatars/cat/1.png', $cat);
     }
+
+    public function test_it_gets_background_image(): void
+    {
+        $bg = PrettyProfile::backgroundImage();
+
+        $this->assertEquals('https://cabinet.companimal.net/bg/bg-1.png', $bg);
+    }
+
+    public function test_it_gets_my_background_image(): void
+    {
+        $bg = PrettyProfile::backgroundImage('https://cabinet.companimal.net/avatars/cat/1.png');
+
+        $this->assertEquals('https://cabinet.companimal.net/avatars/cat/1.png', $bg);
+    }
 }

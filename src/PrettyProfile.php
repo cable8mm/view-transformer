@@ -35,6 +35,12 @@ class PrettyProfile
     const DOG_AVATAR_URL_PREFIX = 'https://cabinet.companimal.net/avatars/dog/';
 
     /**
+     * URL Prefix for a background image.
+     * https://cabinet.companimal.net/avatars/dog/
+     */
+    const DEFAULT_BACKGROUND_PREFIX = 'https://cabinet.companimal.net/bg/';
+
+    /**
      * Total count for Dog images
      * 80
      *
@@ -196,5 +202,19 @@ class PrettyProfile
         return $animal === 'dog' ?
             self::getInstance()->dog($id) :
             self::getInstance()->cat($id);
+    }
+
+    /**
+     * Retrieve a background image URL.
+     *
+     * @param  string  $background_image  URL of the background image.
+     */
+    public static function backgroundImage(?string $background_image = null): string
+    {
+        if (empty($background_image)) {
+            return self::DEFAULT_BACKGROUND_PREFIX.'bg-1.png';
+        }
+
+        return $background_image;
     }
 }
