@@ -139,6 +139,15 @@
             </tr>
                     <tr>
                 <td>
+                                                                                                                        DEFAULT_BACKGROUND_PREFIX
+                                    </td>
+                <td class="last">
+                    <p><em><p>URL Prefix for a background image.</p></em></p>
+                    <p><p><a href="https://cabinet.companimal.net/avatars/dog/">https://cabinet.companimal.net/avatars/dog/</a></p></p>
+                </td>
+            </tr>
+                    <tr>
+                <td>
                                                                                                                         DOG_AVATAR_COUNT
                                     </td>
                 <td class="last">
@@ -273,6 +282,16 @@
                                             <p><p>This can be used in Laravel Blade.</p></p>                </div>
                 <div class="col-md-2"></div>
             </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    static&nbsp;string
+                </div>
+                <div class="col-md-8">
+                    <a href="#method_backgroundImage">backgroundImage</a>(string|null $background_image = null)
+        
+                                            <p><p>Retrieve a background image URL.</p></p>                </div>
+                <div class="col-md-2"></div>
+            </div>
             </div>
 
 
@@ -404,7 +423,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_nickname">
-        <div class="location">at line 74</div>
+        <div class="location">at line 80</div>
         <code>                    string
     <strong>nickname</strong>(int $id)
         </code>
@@ -455,7 +474,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_cat">
-        <div class="location">at line 121</div>
+        <div class="location">at line 127</div>
         <code>                    string
     <strong>cat</strong>(int $id, string|null $size = null)
         </code>
@@ -511,7 +530,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_cats">
-        <div class="location">at line 135</div>
+        <div class="location">at line 141</div>
         <code>                    array
     <strong>cats</strong>(string|null $size = null)
         </code>
@@ -562,7 +581,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_dog">
-        <div class="location">at line 153</div>
+        <div class="location">at line 159</div>
         <code>                    string
     <strong>dog</strong>(int $id, string|null $size = null)
         </code>
@@ -618,7 +637,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_dogs">
-        <div class="location">at line 167</div>
+        <div class="location">at line 173</div>
         <code>                    array
     <strong>dogs</strong>(string|null $size = null)
         </code>
@@ -669,7 +688,7 @@
             </div>
                     <div class="method-item">
                     <h3 id="method_profileImage">
-        <div class="location">at line 186</div>
+        <div class="location">at line 192</div>
         <code>        static            string
     <strong>profileImage</strong>(int $id, string|null $image = null, string $animal = &#039;dog&#039;)
         </code>
@@ -724,6 +743,48 @@
             </tr>
             </table>
 
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_backgroundImage">
+        <div class="location">at line 212</div>
+        <code>        static            string
+    <strong>backgroundImage</strong>(string|null $background_image = null)
+        </code>
+    </h3>
+    <div class="details">    
+    
+            
+
+        <div class="method-description">
+                            <p><p>Retrieve a background image URL.</p></p>                        
+        </div>
+        <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string|null</td>
+                <td>$background_image</td>
+                <td><p>URL of the background image.</p></td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+            
                     </div>
     </div>
 
