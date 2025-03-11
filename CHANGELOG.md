@@ -1,5 +1,14 @@
 # Release Notes
 
+## v3.0.0 - 2025-03-11
+
+### What's Changed
+
+* Update namespaces and URLs by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/view-transformer/pull/18
+* Set environment for API documents by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/view-transformer/pull/19
+
+**Full Changelog**: https://github.com/cable8mm/view-transformer/compare/v2.2.0...v3.0.0
+
 ## v2.2.0 - 2024-03-12
 
 ### What's Changed
@@ -91,6 +100,7 @@ If you use this library in laravel view, it is simple
 
 ```blade
 {{ PrettyProfileHelper::profileImage($user->id, $user->profile_image_url) }}
+
 
 
 
