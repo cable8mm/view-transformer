@@ -1,6 +1,6 @@
 <?php
 
-namespace EscCompany\ViewTransformer;
+namespace Cable8mm\ViewTransformer;
 
 /**
  * This class provides functions for string conversion.

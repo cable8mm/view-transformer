@@ -1,8 +1,8 @@
 <?php
 
-namespace EscCompany\ViewTransformer\Tests;
+namespace Cable8mm\ViewTransformer\Tests;
 
-use EscCompany\ViewTransformer\PrettyProfile;
+use Cable8mm\ViewTransformer\PrettyProfile;
 use PHPUnit\Framework\TestCase;
 
 class PrettyProfileTest extends TestCase
@@ -22,22 +22,22 @@ class PrettyProfileTest extends TestCase
     {
         $profileImage = PrettyProfile::getInstance()->cat(1);
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/cat/1.png', $profileImage);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/cat/1.png', $profileImage);
 
         $profileImage = PrettyProfile::getInstance()->cat(3823);
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/cat/10.png', $profileImage);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/cat/10.png', $profileImage);
     }
 
     public function test_it_gets_expected_dog_profile_image(): void
     {
         $profileImage = PrettyProfile::getInstance()->dog(1);
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/dog/1.png', $profileImage);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/dog/1.png', $profileImage);
 
         $profileImage = PrettyProfile::getInstance()->dog(827342);
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/dog/62.png', $profileImage);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/dog/62.png', $profileImage);
     }
 
     public function test_it_gets_all_of_cats(): void
@@ -58,24 +58,24 @@ class PrettyProfileTest extends TestCase
     {
         $dog = PrettyProfile::profileImage(4123, animal: 'dog');
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/dog/43.png', $dog);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/dog/43.png', $dog);
 
         $cat = PrettyProfile::profileImage(1, animal: 'cat');
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/cat/1.png', $cat);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/cat/1.png', $cat);
     }
 
     public function test_it_gets_background_image(): void
     {
         $bg = PrettyProfile::backgroundImage();
 
-        $this->assertEquals('https://cabinet.companimal.net/bg/bg-1.png', $bg);
+        $this->assertEquals('https://cabinet-pets.palgle.com/bg/bg-1.png', $bg);
     }
 
     public function test_it_gets_my_background_image(): void
     {
-        $bg = PrettyProfile::backgroundImage('https://cabinet.companimal.net/avatars/cat/1.png');
+        $bg = PrettyProfile::backgroundImage('https://cabinet-pets.palgle.com/avatars/cat/1.png');
 
-        $this->assertEquals('https://cabinet.companimal.net/avatars/cat/1.png', $bg);
+        $this->assertEquals('https://cabinet-pets.palgle.com/avatars/cat/1.png', $bg);
     }
 }

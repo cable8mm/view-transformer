@@ -1,5 +1,5 @@
 {
-    "name": "esc-company/view-transformer",
+    "name": "cable8mm/view-transformer",
     "description": "View Transformer make profile image or name if client's information is empty.",
     "keywords": [
         "dog",
@@ -27,12 +27,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "EscCompany\\ViewTransformer\\": "src/"
+            "Cable8mm\\ViewTransformer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EscCompany\\ViewTransformer\\Tests\\": "tests/"
+            "Cable8mm\\ViewTransformer\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
@@ -46,8 +46,8 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "PrettyProfileHelper": "EscCompany\\ViewTransformer\\PrettyProfile",
-                "WordBinderHelper": "EscCompany\\ViewTransformer\\WordBinder"
+                "PrettyProfileHelper": "Cable8mm\\ViewTransformer\\PrettyProfile",
+                "WordBinderHelper": "Cable8mm\\ViewTransformer\\WordBinder"
             }
         }
     }
